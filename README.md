@@ -5,7 +5,7 @@
 [![Join the chat at https://gitter.im/rllab/rllab](https://badges.gitter.im/rllab/rllab.svg)](https://gitter.im/rllab/rllab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Third Person Imitation 
-This fork of rllab contains some experiments in third person imitation learning. See sandbox/bradly for the experiments. 
+This fork of rllab contains some experiments in third person imitation learning. See sandbox/bradly for the experiments. This is research code, released as is with no intentions to further improve upon it. 
 
 # rllab
 
