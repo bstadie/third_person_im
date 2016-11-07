@@ -73,6 +73,6 @@ with tf.Session() as sess:
     iterations = 30
 
     for iter_step in range(0, iterations):
-        trainer.take_iteration(n_trajs_cost=30, n_trajs_policy=30)
+        trainer.take_iteration(n_trajs_cost=6000, n_trajs_policy=6000)
 
     trainer.log_and_finish()
