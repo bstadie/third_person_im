@@ -39,7 +39,7 @@ class ReacherEnv(MujocoEnv, Serializable):
             self.viewer = MjViewer(init_width=25, init_height=25)
             self.viewer.start()
             self.viewer.set_model(self.model)
-            self.viewer.cam.elevation = -35.59999990463257
+            self.viewer.cam.elevation = -20.59999990463257
         return self.viewer
 
     def reset_mujoco(self, init_state=None):
