@@ -12,8 +12,10 @@ import itertools
 import random
 import contextlib
 
-from sandbox.rocky.analogy.utils import unwrap
-
+def unwrap(env):
+  if isinstance(env, TfEnv):
+    return unwrap(env.wrapped_env)
+  return env
 
 @contextlib.contextmanager
 def set_seed_tmp(seed=None):
